@@ -1,2 +1,2 @@
-# stepin-digital-clock
+# stepin-halfwave fullwave
 MiniProject
