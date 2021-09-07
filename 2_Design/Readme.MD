@@ -1,0 +1,2 @@
+- Halfwave rectifier
+![Halfwave rectifier](https://github.com/prathipatisupriya/stepin-halfwave-fullwave/blob/b28c02373576448832f38e378c99f8fc7d7769e0/5_image/HALF-WAVE-AND-FULL-WAVE-RECTIFIER-FIG-1-compressor.jpg)
