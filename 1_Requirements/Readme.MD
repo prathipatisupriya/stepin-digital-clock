@@ -36,14 +36,19 @@ This is also the heart of the circuitry that allows sensors to attach to the RCX
 To detect the amplitude of the modulating radio signal.
 ## How
 By giving required input parameters to the rectifiers.
+
 ## Detail requirements
 
-## High level Requirements:
+## High level Requirements 
+
 | ID | DESCRIPTION | STATUS |
+| :--: | :----: | :----: |
 | HR01 | input values of vdc and load resisitence | implemented |
 
 ## low level requirements 
+
 | ID | DECRIPTION | HLR ID | STATUS |
+| :--: | :----:| :----: | :----: |
 | LR01 | DC current | HR01 | implemented | 
 | LR02 | average voltage | HR01 | implemented | 
 | LR03 | average current | HR01 | implemented |
