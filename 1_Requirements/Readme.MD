@@ -39,13 +39,13 @@ By giving required input parameters to the rectifiers.
 
 ## Detail requirements
 
-## High level Requirements 
+## High level Requirements for halfwave and fullwave rectifier
 
 | ID | DESCRIPTION | STATUS |
 | :--: | :----: | :----: |
 | HR01 | input values of vdc and load resisitence | implemented |
 
-## low level requirements 
+## low level requirements for halfwave 
 
 | ID | DECRIPTION | HLR ID | STATUS |
 | :--: | :----:| :----: | :----: |
@@ -56,7 +56,17 @@ By giving required input parameters to the rectifiers.
 | LR05 | RMS current | HR01 | implemented |
 | LR06 | Formfactor | HR01 | implemented |
 | LR07 | power delivered| HR01 | implemented |
-| LR08 | percentage regulation | HR01 | implemented |
+| LR08 | percentage regulation | HR01 | implemented | 
 
+## low level requirements for fullwave rectifier
 
-
+| ID | DECRIPTION | HLR ID | STATUS |
+| :--: | :----:| :----: | :----: |
+| L_01 | DC current | HR01 | implemented | 
+| L_02 | average voltage | HR01 | implemented | 
+| L_03 | average current | HR01 | implemented |
+| L_04 | RMS  voltage | HR01 | implemented |
+| L_05 | RMS current | HR01 | implemented |
+| L_06 | Formfactor | HR01 | implemented |
+| L_07 | power delivered| HR01 | implemented |
+| L_08 | percentage regulation | HR01 | implemented | 
