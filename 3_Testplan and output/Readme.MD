@@ -29,8 +29,8 @@
 | LR08 | percentage regulation | 10,5 | 2.14 | 2.14 | Requirment based |
 
 ## output
-- output of halfwave
+-  output of halfwave
 ![ouput of halfwave](https://github.com/prathipatisupriya/stepin-halfwave-fullwave/blob/1f6d99e74b2ea4298f67f021390b156400cf9900/5_image/output%20for%20halfwave.PNG)
 
--output of fullwave
+-  output of fullwave
 ![output of fullwave](https://github.com/prathipatisupriya/stepin-halfwave-fullwave/blob/c00afbd19f1fa485a98bad562d280679b19b591c/5_image/output%20of%20fullwave.PNG)
