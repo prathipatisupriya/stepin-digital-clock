@@ -3,7 +3,7 @@
 #define PI 3.142857
 
 /**
- * @brief function to calculate the halfwave rectifier parameters
+ * @brief function to calculate the Halfwave rectifier parameters
  * @param Vdc Dc voltage value entered by User
  * @param Rl  load resistance value entered by User
  *
@@ -40,7 +40,7 @@ int operationofHalfwave()
   return 1;
 }
 /**
- *@brief function to calculate the fullwave rectifier parameters
+ *@brief function to calculate the Fullwave rectifier parameters
  * @param Vdc Dc voltage value entered by User
  * @param Rl  load resistance value entered by User
  *
