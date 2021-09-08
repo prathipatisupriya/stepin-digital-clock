@@ -6,13 +6,13 @@
  * @brief function to calculate the halfwave rectifier parameters
  * @param Vdc Dc voltage value entered by User
  * @param Rl  load resistance value entered by User
- *
+ * 
  * @return int Returns all the parameter of halfwave
  */
 
 int operationofHalfwave()
 {
-  float Vdc,Rl,Idc,Vavg,Iavg,Irms,Vrms,Formfactor,Powerdelivered,percentageregulation,a,b,c,d;
+  float Vdc,Rl,Idc,Vavg,Iavg,Irms,Vrms,Formfactor,Powerdelivered,percentageregulation;
   printf("\nEnter the Vdc= ");
   scanf("%f", &Vdc);
   printf("\nEnter the Rl= ");
@@ -29,13 +29,9 @@ int operationofHalfwave()
   printf("The output RMS Current of halfwave is %f amps.\n",Irms);
   Formfactor=(Vrms/Vavg);
   printf("The Formfactor of halfwave is %f\n",Formfactor);
-  a=Vrms*Vrms;
-  b=a/Rl;
-  Powerdelivered=b;
+  Powerdelivered=(Vrms*Vrms)/(Rl);
   printf("The Powerdelivered of halfwave is %f watts. \n",Powerdelivered);
-  c=Vdc-Vavg;
-  d=c/Vavg;
-  percentageregulation=d;
+  percentageregulation=((Vdc-Vavg)/Vavg);
   printf("The percentageregulation of halfwave is %f \n",percentageregulation);
   return 1;
 }
@@ -43,26 +39,22 @@ int operationofHalfwave()
  *@brief function to calculate the fullwave rectifier parameters
  * @param Vdc Dc voltage value entered by User
  * @param Rl  load resistance value entered by User
- *
- * @return int Returns all the parameter of fullwave
+ * 
+ * @return int Returns all the parameter of fullwave 
  */
 
 int  operationofFullwave()
 {
-  float Vdc,Rl,Idc,Vavg,Iavg,Irms,Vrms,Formfactor,Powerdelivered,Percentageregulation,e,f,g,h,i,j,k,l;
+  float Vdc,Rl,Idc,Vavg,Iavg,Irms,Vrms,Formfactor,Powerdelivered,Percentageregulation;
   printf("\nEnter the Vdc=");
   scanf("%f", &Vdc);
   printf("\nEnter the Rl=");
   scanf("%f", &Rl);
     Idc=(Vdc/Rl);
   printf("The output DC Current of fullwave is %f amps.\n",Idc);
-  e=2*Vdc;
-  f=e/PI;
-  Vavg=f;
+  Vavg=(2*Vdc/PI);
   printf("The output Average Voltage of fullwave is %f volts.\n",Vavg);
-  g=2*Idc;
-  h=g/PI;
-  Iavg=h;
+  Iavg=(2*Idc/PI);
   printf("The output Average Current of fullwave is %f amps.\n",Iavg);
   Vrms=(Vdc/1.412);
   printf("The output RMS Voltage of halfwave is %f volts.\n",Vrms);
@@ -70,20 +62,15 @@ int  operationofFullwave()
   printf("The output RMS Current of fullwave is %f amps.\n",Irms);
   Formfactor=(Vrms/Vavg);
   printf("The Formfactor of fullwave is %f\n",Formfactor);
-  i=Vrms*Vrms;
-  k=i/Rl;
-  Powerdelivered=k;
+  Powerdelivered=(Vrms*Vrms)/(Rl);
   printf("The Powerdelivered of fullwave is %f watts. \n",Powerdelivered);
-  j=Vdc-Vavg;
-  l=j/Vavg;
-  Percentageregulation=l;
+  Percentageregulation=((Vdc-Vavg)/Vavg);
   printf("The Percentage regulation of fullwave is %f \n",Percentageregulation);
   return 1;
 }
-int Vdc(int Vdc)
-{
-  Vdc=0;
-  if(Vdc>0)
+int Vdc(int vdc){
+  vdc=0;
+  if(vdc>0)
   {
     return 0;
   }
