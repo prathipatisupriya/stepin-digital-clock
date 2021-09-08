@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<math.h>
 #define PI 3.142857
-#include "func.h"
 
 /**
  * @brief function to calculate the halfwave rectifier parameters
@@ -31,7 +30,7 @@ int operationofHalfwave()
   Formfactor=(Vrms/Vavg);
   printf("The Formfactor of halfwave is %f\n",Formfactor);
   a=Vrms*Vrms;
-  b=a/Rl;
+  b=a/RI;
   Powerdelivered=b;
   printf("The Powerdelivered of halfwave is %f watts. \n",Powerdelivered);
   c=Vdc-Vavg;
@@ -81,7 +80,8 @@ int  operationofFullwave()
   printf("The Percentage regulation of fullwave is %f \n",Percentageregulation);
   return 1;
 }
-int Vdc(int Vdc){
+int Vdc(int Vdc)
+{
   Vdc=0;
   if(Vdc>0)
   {
