@@ -30,7 +30,7 @@ int operationofHalfwave()
   Formfactor=(Vrms/Vavg);
   printf("The Formfactor of halfwave is %f\n",Formfactor);
   a=Vrms*Vrms;
-  b=a/RI;
+  b=a/Rl;
   Powerdelivered=b;
   printf("The Powerdelivered of halfwave is %f watts. \n",Powerdelivered);
   c=Vdc-Vavg;
