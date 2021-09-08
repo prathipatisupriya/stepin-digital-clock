@@ -80,9 +80,10 @@ int  operationofFullwave()
   printf("The Percentage regulation of fullwave is %f \n",Percentageregulation);
   return 1;
 }
-int Vdc(int vdc){
-  vdc=0;
-  if(vdc>0)
+int Vdc(int Vdc)
+{
+  Vdc=0;
+  if(Vdc>0)
   {
     return 0;
   }
