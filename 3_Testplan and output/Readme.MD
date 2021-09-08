@@ -27,3 +27,7 @@
 | LR06 | Formfactor | 5,3.18 | 1.57 | 1.57 | Requirment based |
 | LR07 | Powerdelivered | 25,5 | 5 | 5 | Requirment based |
 | LR08 | percentage regulation | 10,3.18 | 2.14 | 2.14 | Requirment based |
+
+## output
+- output of halfwave
+![ouput of halfwave](https://github.com/prathipatisupriya/stepin-halfwave-fullwave/blob/1f6d99e74b2ea4298f67f021390b156400cf9900/5_image/output%20for%20halfwave.PNG)
