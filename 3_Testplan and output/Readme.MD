@@ -33,4 +33,4 @@
 ![ouput of halfwave](https://github.com/prathipatisupriya/stepin-halfwave-fullwave/blob/1f6d99e74b2ea4298f67f021390b156400cf9900/5_image/output%20for%20halfwave.PNG)
 
 -output of fullwave
-![output of fullwave](https://github.com/prathipatisupriya/stepin-halfwave-fullwave/blob/7e62265cee423762a747903850ab02aff2e037dd/5_image/output%20of%20fullwave.PNG)
+![output of fullwave](https://github.com/prathipatisupriya/stepin-halfwave-fullwave/blob/c00afbd19f1fa485a98bad562d280679b19b591c/5_image/output%20of%20fullwave.PNG)
