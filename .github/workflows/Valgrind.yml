@@ -17,6 +17,6 @@ jobs:
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
-      run: make -C 4_Implementaion/ test
+      run: make -C 4_implementaion/ test
     - name: Valgrind
-      run: valgrind ./4_Implementaion/Build/Test_halfwave-fullwave.out
+      run: valgrind ./4_implementaion/Build/Test_halfwave-fullwave.out
